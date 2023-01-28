@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "824873785456",
+    "project_id": "chatapp-faeba",
+    "storage_bucket": "chatapp-faeba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824873785456:android:09fbb4414a38daaa2bfcb5",
+        "android_client_info": {
+          "package_name": "com.chat.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824873785456-qre7k0nkr2jo04655lc01h6gr6p6gll3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhqGKSJw7uQqEwmt-TKHDnCPHVIRuXJT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824873785456-qre7k0nkr2jo04655lc01h6gr6p6gll3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824873785456:android:c87edcd5a895d3e92bfcb5",
+        "android_client_info": {
+          "package_name": "com.trimad.ichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824873785456-qre7k0nkr2jo04655lc01h6gr6p6gll3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhqGKSJw7uQqEwmt-TKHDnCPHVIRuXJT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824873785456-qre7k0nkr2jo04655lc01h6gr6p6gll3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

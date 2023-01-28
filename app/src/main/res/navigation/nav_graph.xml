@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.trimad.ichat.ui.fragments.LoginFragment"
+        android:label="SplashFragment">
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_subscriptionStatus"
+            app:destination="@id/subscriptionStatus"
+            app:popUpTo="@id/nav_graph"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.trimad.ichat.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_newGroupFragment"
+            app:destination="@id/newGroupFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_liveChatFragment"
+            app:destination="@id/liveGroupChatFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_singleLiveChatFragment"
+            app:destination="@id/singleLiveChatFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_userProfile"
+            app:destination="@id/userProfile" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.trimad.ichat.ui.fragments.ChatHomeFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat_home" />
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="com.trimad.ichat.ui.fragments.GroupsFragment"
+        android:label="fragment_groups"
+        tools:layout="@layout/fragment_groups">
+
+    </fragment>
+    <fragment
+        android:id="@+id/organizationFragment"
+        android:name="com.trimad.ichat.ui.fragments.OrganizationFragment"
+        android:label="fragment_organization"
+        tools:layout="@layout/fragment_organization" />
+    <fragment
+        android:id="@+id/liveGroupChatFragment"
+        android:name="com.trimad.ichat.ui.fragments.LiveGroupChatFragment"
+        android:label="LiveGroupChatFragment">
+        <action
+            android:id="@+id/action_liveChatFragment_to_groupDetailsFragment"
+            app:destination="@id/groupDetailsFragment"
+            app:popUpTo="@id/liveGroupChatFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_liveGroupChatFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
+            app:launchSingleTop="true"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/newGroupFragment"
+        android:name="com.trimad.ichat.ui.fragments.NewGroupFragment"
+        android:label="NewGroupFragment">
+        <action
+            android:id="@+id/action_newGroupFragment_to_detailsNewGroupFragment"
+            app:destination="@id/detailsNewGroupFragment"
+            app:popUpTo="@id/newGroupFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsNewGroupFragment"
+        android:name="com.trimad.ichat.ui.fragments.DetailsNewGroupFragment"
+        android:label="DetailsNewGroupFragment">
+        <action
+            android:id="@+id/action_detailsNewGroupFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/detailsNewGroupFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/groupDetailsFragment"
+        android:name="com.trimad.ichat.ui.fragments.GroupDetailsFragment"
+        android:label="GroupDetailsFragment">
+        <action
+            android:id="@+id/action_groupDetailsFragment_to_addParticipentsFragment"
+            app:destination="@id/addParticipentsFragment"
+            app:popUpTo="@id/groupDetailsFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/addParticipentsFragment"
+        android:name="com.trimad.ichat.ui.fragments.AddParticipentsFragment"
+        android:label="AddParticipentsFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.trimad.ichat.ui.fragments.ProfileFragment"
+        android:label="ProfileFragment">
+        <action
+            android:id="@+id/action_profileFragment_to_singleLiveChatFragment"
+            app:destination="@id/singleLiveChatFragment"
+            app:popUpTo="@id/profileFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/singleLiveChatFragment"
+        android:name="com.trimad.ichat.ui.fragments.SingleLiveChatFragment"
+        android:label="SingleLiveChatFragment" >
+        <action
+            android:id="@+id/action_singleLiveChatFragment_to_chatFragment"
+            app:destination="@id/chatFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_graph"
+            app:launchSingleTop="true"
+            />
+        <action
+            android:id="@+id/action_singleLiveChatFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_graph"
+            app:launchSingleTop="true"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/userProfile"
+        android:name="com.trimad.ichat.ui.fragments.UserProfile"
+        android:label="UserProfile" />
+
+
+    <action
+        android:id="@+id/action_global_homeFragment"
+        app:destination="@id/homeFragment"
+        app:popUpTo="@id/nav_graph"
+        />
+    <fragment
+        android:id="@+id/subscriptionStatus"
+        android:name="com.trimad.ichat.ui.fragments.SubscriptionStatus"
+        android:label="SubscriptionStatus" >
+        <action
+            android:id="@+id/action_subscriptionStatus_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true"
+            />
+    </fragment>
+</navigation>

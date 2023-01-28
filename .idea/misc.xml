@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/drawable/ic_send.xml" value="0.176" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_add_participents.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_chat_home.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_details_new_group.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_group_details.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_groups.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_home.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_live_group_chat.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_new_group.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_organization.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_profile.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_single_live_chat.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_subscription_status.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/fragment_user_profile.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/friend_message_item_view.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/info_message_item_layout.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/particiepents_vertial_itemview.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/participants_chats.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/participent_grid_itemview.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/selected_participent_itemview.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/user_item_view.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/ChatApp-master/app/src/main/res/layout/user_message_item_view.xml" value="0.2234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

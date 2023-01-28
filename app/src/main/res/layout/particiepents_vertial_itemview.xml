@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_imageview"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:src="@drawable/ic_launcher_background"
+            />
+
+        <ImageView
+            android:id="@+id/selected_imageview"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/selcted"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/user_imageview"
+            app:layout_constraintBottom_toBottomOf="@id/user_imageview"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/user_imageview"
+            app:layout_constraintBottom_toBottomOf="@id/user_imageview"
+            app:layout_constraintStart_toEndOf="@id/user_imageview"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+
+            >
+
+            <TextView
+                android:id="@+id/username_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jack"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_bio_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/username_tv"
+
+                android:text="Hey there! I'm using whtsapp" />
+
+            <TextView
+                android:id="@+id/admin_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/username_tv"
+                android:layout_alignBottom="@id/username_tv"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="center"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="@string/group_admin"
+                android:textColor="@color/purple_700"
+                android:textSize="@dimen/_8ssp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/username_tv"
+                android:layout_alignBottom="@id/username_tv"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@drawable/blue_circle"
+                android:paddingHorizontal="7dp"
+                android:paddingVertical="2dp"
+                android:text="0"
+                android:visibility="invisible"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
