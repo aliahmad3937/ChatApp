@@ -22,17 +22,17 @@ A business chat application where user can chat  in groups or with other users o
 
 # Pictures
 <p float="left">
-<img src="https://github.com/aliahmad3937/Noted/blob/master/asset/audioNote.jpeg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Noted/blob/master/asset/colorPiker.jpeg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Noted/blob/master/asset/drawer.jpeg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Noted/blob/master/asset/login.jpeg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Noted/blob/master/asset/note.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/ChatApp/blob/master/asset/login.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/ChatApp/blob/master/asset/homePage.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/ChatApp/blob/master/asset/chat.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/ChatApp/blob/master/asset/group.jpeg" width="150" height="280">
+
 </p>
 
 <p float="left">
-<img src="https://github.com/aliahmad3937/Noted/blob/master/asset/paint.jpeg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Noted/blob/master/asset/signup.jpeg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Noted/blob/master/asset/subscription.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/ChatApp/blob/master/asset/organization.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/ChatApp/blob/master/asset/users.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/ChatApp/blob/master/asset/profile.jpeg" width="150" height="280">
 
 </p>
 
